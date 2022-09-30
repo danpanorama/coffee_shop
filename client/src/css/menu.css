@@ -1,0 +1,239 @@
+.bg_menu {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../IMG_0283.jpg");
+  object-fit: cover;
+  background-size: cover;
+}
+.threeOptions {
+  height: 70vh;
+  width: 100%;
+}
+
+.centerIt {
+  height: 60%;
+  width: 70%;
+}
+.squar_option {
+  height: 100%;
+  width: 30%;
+  background-color: rgb(221, 211, 216);
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+.circul_icon {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  overflow: hidden;
+  transform: translateY(-150px);
+  box-shadow: 0px 10px 10px 0px;
+  transition: all 0.2s ease;
+}
+.bg_menu {
+  margin-bottom: 50px;
+}
+
+.squar_option:hover {
+  box-shadow: 0px 10px 10px 0px;
+}
+
+.squar_option:hover .circul_icon {
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.menu_sec_word {
+  width: 50%;
+  position: relative;
+  cursor: pointer;
+}
+/* .menu_sec_word::before {
+  height: 0%;
+  width: 100%;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(202, 238, 255);
+
+  transition: all 0.5s ease;
+}
+
+.menu_sec_word:hover::before {
+  height: 100%;
+}
+.menu_sec_word:hover .h1_anim {
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+.menu_sec_word:hover .op0_effect {
+  height: auto;
+  transform: translateY(0);
+  opacity: 1;
+} */
+.h1_anim {
+  transition: all 0.3s ease;
+}
+
+.op0_effect {
+  position: absolute;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: transform 0.5s ease;
+  height: 0;
+}
+
+/* start the menu section */
+.menu_store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./../images/back.jpg);
+  padding-top: 20px;
+  background-size: cover;
+  object-fit: cover;
+}
+.items_in_store {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.hold_all_card {
+  min-height: 30vh;
+}
+.holdall_card {
+  background-color: azure;
+}
+.no_margin {
+  margin: 0;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image_in_card {
+  min-height: 200px;
+  width: 100%;
+  background-color: rgb(154, 206, 206);
+}
+
+.item_disc {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.buttons_to_by {
+  width: 100%;
+}
+
+.button_get {
+}
+.get_btn {
+  width: 100%;
+  font-weight: 700;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.quary {
+  height: 100%;
+  width: 30%;
+}
+.input {
+  width: 90%;
+  margin: 0 auto;
+  border: none;
+  height: 51px;
+  font-size: 16px;
+  width: 100%;
+  background-color: rgb(192, 192, 189);
+  box-shadow: inset 0px 0px 10px;
+}
+
+.add {
+  background-color: cornflowerblue;
+  color: aliceblue;
+}
+.bay {
+  background-color: rgb(85, 141, 0);
+  color: aliceblue;
+}
+
+.btn {
+}
+
+/* phon section? */
+
+.phon {
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  display: none;
+}
+.image_phon {
+  width: 20%;
+  min-height: 15vh;
+  background-color: rgb(218, 195, 206);
+}
+.click {
+  width: 80%;
+}
+.flexrow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.image_s {
+  min-width: 30%;
+}
+.menuItemAbut {
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.menuItemAbut_clicked {
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+  transition: all 0.5s ease;
+  box-shadow: inset 0px 0px 10px;
+}
+.body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(145, 145, 145);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.namefoodPhon {
+  text-align: right;
+  font-size: 2rem;
+}

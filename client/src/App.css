@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.navbar {
+  position: sticky;
+
+  top: 0;
+  left: 0;
+}
+
+.posAbsulot {
+  position: fixed;
+  bottom: 0;
+  z-index: 90000;
+  left: 0;
+}
+.display_none {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.makeStyles-root-1 {
+  width: auto !important;
+}
+img {
+  object-fit: cover;
+}

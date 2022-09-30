@@ -1,0 +1,141 @@
+body {
+  overflow-x: hidden;
+}
+.pading_left {
+  padding-left: 10px;
+}
+.pading_right {
+  padding-right: 10px;
+}
+.zindex {
+  z-index: 5000;
+}
+
+.top {
+  height: 5vh;
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.w_100 {
+  width: 100%;
+}
+.h_w_pp {
+  height: 115vh;
+}
+
+.pad_left_right {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.flex_row_to_col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.d_flex_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.d_flex_row_fix {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.d_flex_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aline_center {
+  align-items: center;
+}
+.cool {
+  align-items: center;
+}
+.wid_webwid {
+  width: 80%;
+}
+.ob_fit {
+  object-fit: cover;
+}
+.bc_size_cover {
+  background-size: cover;
+  min-height: 200px;
+}
+
+.flex_col_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex_row_stay_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex_item_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.w_50 {
+  width: 50%;
+}
+.marg_top_20 {
+  margin-top: 20px;
+}
+.h_100 {
+  height: 100%;
+}
+.padding_right_left {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.marg_left {
+  margin-left: 50px;
+}
+
+.err {
+  color: red;
+}
+.seccess {
+  color: greenyellow;
+}
+
+.justify_self_start {
+  position: absolute;
+  top: 0;
+}
+
+.marg_zero {
+  margin: 0;
+}
+
+.heit_100 {
+  height: 100%;
+}
+
+.d_flex_col_r {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

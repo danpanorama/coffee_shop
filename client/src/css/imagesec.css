@@ -1,0 +1,8 @@
+.imgsec {
+  height: 40vh;
+  width: 100%;
+  background-image: url(../IMG_0283.jpg);
+  object-fit: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}

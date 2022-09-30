@@ -1,0 +1,134 @@
+@media only screen and (max-width: 900px) {
+  .display_none {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    width: 100%;
+  }
+  .displaynon {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .image_big {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .wordside {
+    padding: 10px;
+    position: absolute;
+    background-color: rgb(167, 193, 197);
+  }
+  .flex_row_to_col {
+    flex-direction: column !important;
+  }
+  .section_photos {
+    width: auto !important;
+    height: auto !important;
+  }
+  .squerside {
+    width: auto;
+    max-height: 30vh;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .imageside {
+    max-height: 30vh;
+  }
+
+  .menubtn {
+    padding: 0;
+  }
+  .nav_links_ul {
+    display: none !important;
+    visibility: hidden;
+    opacity: 0;
+    width: 0 !important;
+  }
+  .logo {
+    width: auto;
+  }
+  .sideA {
+    width: 0;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .sideVideo {
+    width: auto !important;
+  }
+  .linkss {
+    font-size: 1.6rem;
+  }
+
+  .wid_webwid {
+    width: auto !important;
+  }
+  .discript {
+    align-self: center;
+  }
+  .hold_sec {
+    width: 100%;
+  }
+  .links_menu_activ {
+    width: 100% !important;
+  }
+
+  .threeOptions {
+    height: auto !important;
+  }
+  .centerIt {
+    height: auto !important;
+    width: auto !important;
+  }
+  .squar_option {
+    width: 90% !important;
+    margin-bottom: 20px;
+    max-height: 30vh;
+  }
+  .circul_icon {
+    height: 20% !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+    transform: translateY(0) !important;
+  }
+  .items_in_store {
+    width: 100% !important;
+  }
+  .pos_absulot_none_activ {
+    width: 100% !important;
+    transition: all 0.5s ease;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+  .buttons_to_by {
+    width: auto !important;
+  }
+  .card {
+    display: flex;
+  }
+
+  .hold_all_card {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+  .phon {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}

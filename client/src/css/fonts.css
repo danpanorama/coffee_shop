@@ -1,0 +1,14 @@
+.big_header {
+  width: 60%;
+  text-align: left;
+  font-size: 30px;
+  align-items: flex-start;
+}
+.small_header {
+  width: 90%;
+  text-align: left;
+}
+
+.primery_geader {
+  margin: 0;
+}

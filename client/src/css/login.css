@@ -1,0 +1,12 @@
+.baclolorred {
+  background-color: firebrick;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginForm {
+  background-color: floralwhite;
+  padding: 20px;
+}

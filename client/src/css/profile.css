@@ -1,0 +1,27 @@
+.bg_prof {
+  height: 30vh;
+  width: 100%;
+  background-color: rgb(17, 147, 207);
+  justify-content: center;
+}
+.all_prof {
+  width: 100%;
+  background-color: hotpink;
+}
+.center_profile {
+  width: 100%;
+
+  align-items: center;
+}
+.sec_info {
+  width: 80%;
+}
+.center_prof_c {
+  width: 70%;
+  background-color: whitesmoke;
+  box-shadow: inset 0 10px 10px;
+  min-height: 100vh;
+}
+
+.side_info {
+}

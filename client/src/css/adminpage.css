@@ -1,0 +1,18 @@
+.fullsize {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+}
+
+.center {
+  background-color: fuchsia;
+  padding: 20px;
+}
+
+.max_table {
+  height: 30vh;
+  overflow: scroll;
+}
